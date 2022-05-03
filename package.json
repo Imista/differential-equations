@@ -1,0 +1,23 @@
+{
+  "name": "differential-equations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuffinPlease/differential-equations.git"
+  },
+  "author": "Muffin Please <benjamintec3455@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuffinPlease/differential-equations/issues"
+  },
+  "homepage": "https://github.com/MuffinPlease/differential-equations#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
