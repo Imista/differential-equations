@@ -1,0 +1,25 @@
+/* Variables */
+:root{
+    /* Colors */
+    --main: #edf2f4;
+    --second: #2b2d42;
+    --third: #d90429;
+    --white: #fff;
+    --black: #000;
+    /* Sizes */
+    --bg: 24px;
+    --md: 20px;
+    --sm: 16px;
+}
+
+body{
+    /* Text */
+    font-family: 'Questrial', sans-serif;
+    font-size: var(--sm);
+    /* Box */
+    background-color: var(--main);
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

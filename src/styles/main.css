@@ -1,0 +1,92 @@
+main{
+    /* Box */
+    background-color: var(--white);
+    margin: 12px 16%;
+    padding-top: 32px;
+    /* Display */
+    display: flex;
+    justify-content: center;
+}
+
+main .main-sections{
+    /* Box */
+    width: 75%;
+    padding: 12px 40px;
+    box-sizing: border-box  ;
+}
+
+.main-sections h1{
+    /* Text */
+    font-size: var(--bg);
+    font-weight: bolder;
+    /* Box */
+    margin-bottom: 16px;
+}
+
+.section-data{
+    /* Box */
+    border-top: 2px solid rgb(232, 232, 232);
+    border-bottom: 2px solid rgb(232, 232, 232);
+    margin: 12px 0;
+    padding: 12px 0;
+    /* Display */
+    display: flex;
+    flex-direction: row;
+}
+
+.section-data p:nth-of-type(1){
+    margin: 0 24px 0 12px;
+}
+
+.main-sections h2{
+    /* Text */
+    font-size: var(--md);
+    font-weight: bolder;
+    /* Box */
+    margin: 40px 0 20px 0;
+}
+
+main aside{
+    /* Box */
+    width: 25%; 
+    padding: 12px;
+    /* Display */
+    display: flex;
+    flex-direction: column;
+}
+
+main aside h2{
+    border-left: 4px solid var(--third);
+    padding-left: 4px;
+}
+
+main aside a{
+    /* Text */
+    text-decoration: none;
+    color: var(--second);
+    /* Box */
+    padding: 8px 0;
+    margin: 0 12px;
+    border-bottom: 1px solid var(--second);
+}
+
+main aside a:nth-of-type(1){
+    border-top: 1px solid var(--second);
+    margin-top: 12px;
+
+}
+
+main aside a:visited{
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+main aside a:focus{
+    color: var(--third);
+}
+@media (hover){
+    main aside a:hover{
+        cursor: pointer;
+        color: var(--third);
+    }
+}

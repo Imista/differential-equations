@@ -1,0 +1,39 @@
+header{
+    /* Display */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    /* Box */
+    padding: 16px 15%;
+    background-color: var(--white);
+    /* Text */
+    color: var(--second);
+}
+
+header h1{
+    /* Text */
+    text-transform: uppercase;
+    font-size: var(--md);
+}
+
+.header-nav a:focus{
+    color: var(--third);
+}
+@media (hover){
+    .header-nav a:hover{
+        cursor: pointer;
+        color: var(--third);
+    }
+}
+
+/* Media */
+@media (max-width: 552px){
+    .header-nav{
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+}
+
