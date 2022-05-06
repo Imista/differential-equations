@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -14,8 +15,10 @@ module.exports = {
             '@templates' : path.resolve(__dirname,'src/templates/'),
             '@styles' : path.resolve(__dirname,'src/styles/'),
             '@images' : path.resolve(__dirname,'src/assets/images/'),
-            '@pages' : path.resolve(__dirname,'src/assets/pages/'),
-            '@articles' : path.resolve(__dirname,'src/assets/articles/'),
+            '@pages' : path.resolve(__dirname,'src/pages/'),
+            '@articles' : path.resolve(__dirname,'src/articles/'),
+            '@utils' : path.resolve(__dirname,'src/utils/'),
+            '@router' : path.resolve(__dirname,'src/router'),
         }
     },
     module: {
@@ -58,5 +61,13 @@ module.exports = {
             filename: './index.html'
         }),
         new MiniCssExtractPlugin(),
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: path.resolve(__dirname,"src","assets/images"),
+                    to: "assets/images"
+                }
+            ]
+        }),
     ],
 }

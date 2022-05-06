@@ -1,0 +1,9 @@
+main .errorPage{
+    /* Text */
+    font-size: var(--bg);
+    /* Box */
+    height: 200px;
+    /* Display */
+    display: grid;
+    place-items: center;
+}
