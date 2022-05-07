@@ -3,7 +3,7 @@ const Transcendentes = () => (
         <h1>Ecuaciones Trascendentes</h1>
         <div class="section-data">
             <p>10 de diciembre del 2021</p>
-            <p>Ecuaciones/Trascendentes</p>
+            <p>Ecuaciones / Trascendentes</p>
         </div>
         <section>
             <h2>Definición</h2>

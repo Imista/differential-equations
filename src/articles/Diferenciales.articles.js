@@ -3,7 +3,7 @@ const Diferenciales = () => (
         <h1>Ecuaciones Diferenciales</h1>
         <div class="section-data">
             <p>03 de diciembre del 2021</p>
-            <p>Ecuaciones/Diferenciales</p>
+            <p>Ecuaciones / Diferenciales</p>
         </div>
         <section>
             <h2>Introducción</h2>

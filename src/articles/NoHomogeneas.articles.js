@@ -3,7 +3,7 @@ const NoHomogeneas = () => (
         <h1>Ecuaciones Diferenciales No Homogeneas</h1>
         <div class="section-data">
             <p>13 de marzo del 2022</p>
-            <p>Ecuaciones/Diferenciales/No Homogeneas</p>
+            <p>Ecuaciones / Diferenciales / No Homogeneas</p>
         </div>
         <section>
             <h2>Definición</h2>

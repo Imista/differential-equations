@@ -3,7 +3,7 @@ const Integrales = () => (
         <h1>Ecuaciones Integrales</h1>
         <div class="section-data">
             <p>10 de septiembre del 2021</p>
-            <p>Ecuaciones/Integrales</p>
+            <p>Ecuaciones / Integrales</p>
         </div>
         <section>
             <h2>Definición</h2>

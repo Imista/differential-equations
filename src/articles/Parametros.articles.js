@@ -3,7 +3,7 @@ const Parametros = () => (
         <h1>Variacion de parametros</h1>
         <div class="section-data">
             <p>06/05/2022</p>
-            <p>Ecuaciones/Diferenciales/No homogeneas/Variacion de parametros</p>
+            <p>Ecuaciones / Diferenciales / No homogeneas / Variacion de parametros</p>
         </div>
         <section>
             <h2>Plantemiento</h2>
